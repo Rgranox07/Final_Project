@@ -35,9 +35,12 @@
 
         <div class="p-4 fs-3 fw-bold text-light text-center">
             <p>Student Profiles</p>
-            <button class="btn btn-light p-3">
-                    <span class="fs-5 fw-bold text-black">Add Profile<a href="./Profile_form.php"><i class="fa-solid fa-circle-plus p-3"></i></a></span>
-            </button>
+        </div>
+        <div class="d-flex justify-content-center">
+
+            <h4 class="btn btn-outline-light m-2"><a href="./Profile_form.php" class="nav-link">Add Profile<i class="fa-solid fa-circle-plus pe-2"></i></a></h4>
+            <h4 class="btn btn-outline-light m-2"><a href="./afterLoginIndex.php" class="nav-link">Home Page<i class="fa-solid fa-house pe-2"></i></a></h4>
+
         </div>
 
         <?php
@@ -105,7 +108,7 @@
                         </div>
 
                     <div class="d-flex justify-content-evenly">
-                        <div class="d-flex justify-content-centercol-md-6">
+                        <div class="d-flex justify-content-center col-md-6">
                             <a href="edit.php?updateID=<?php echo $profile['id'];?>">
                                 <input type="submit" class="profile-edit-btn btn btn-outline-success" name="btnAddMore" value="Edit Profile"></a>
                         </div>

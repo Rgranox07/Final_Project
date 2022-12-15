@@ -36,7 +36,7 @@ class database{
         $sql = $this->conn->query($query);
         if ($sql == true){
             //Shows if data is successfully inserted
-            header("Location:index.php?msg1=insert");
+            header("Location:afterLoginIndex.php?msg1=insert");
         }else{
             //Display Error
             echo "Cannot add data";
@@ -89,7 +89,7 @@ class database{
             $sql = $this->conn->query($query);
             if($sql == true){
                 //Shows message if data is successfully updated
-                header("Location:index.php?msg2=update");
+                header("Location:afterLoginIndex.php?msg2=update");
             }else{
                 //Shows error
                 echo "Could not update your profile";
@@ -102,7 +102,7 @@ class database{
         $sql = $this->conn->query($query);
         if ($sql == true){
             //Shows message if data is successfully deleted
-            header("Location:index.php?msg3=delete");
+            header("Location:afterLoginIndex.php?msg3=delete");
         }else{
             //Show Error
             echo "Could not delete";

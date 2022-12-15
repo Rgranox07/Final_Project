@@ -25,25 +25,50 @@
 <body>
 <!-- Start your project here-->
 
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="formLay1 d-flex justify-content-center">
+    <div class="formLay2 bg-light">
 
-<div>
-    <p class="text-center fs-2 fw-bold">Sign In</p>
-    <form class="p-3" method="post" action="./validate.php">
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-            <input type="text" name="username" id="form1Example1" class="form-control" />
-            <label class="form-label" for="form1Example1">Username</label>
-        </div>
+        <p class="m-0 text-center fs-3 fw-bold">Sign In</p>
 
-        <!-- Password input -->
-        <div class="form-outline mb-4">
-            <input type="password" name="password" id="form1Example2" class="form-control" />
-            <label class="form-label" for="form1Example2">Password</label>
-        </div>
+        <form class="p-3" method="post" action="./validate.php">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input type="text" name="username" id="form1Example1" class="form-control" />
+                <label class="form-label" for="form1Example1">Username</label>
+            </div>
 
-        <!-- Submit button -->
-        <button type="submit" value="Log-in" class="btn btn-primary btn-block">Sign in</button>
-    </form>
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <input type="password" name="password" id="form1Example2" class="form-control" />
+                <label class="form-label" for="form1Example2">Password</label>
+            </div>
+
+            <div class="text-center">
+                <p>or sign up with:</p>
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                </button>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" value="Log-in" class="mt-2 btn btn-primary btn-block">Sign in</button>
+        </form>
+    </div>
 </div>
 
 <!-- End your project here-->

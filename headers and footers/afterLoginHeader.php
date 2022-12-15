@@ -13,14 +13,14 @@
             <div class="collapse navbar-collapse" id="navbarExample01">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="../logout.php">Logout</a>
+                        <a class="nav-link" aria-current="page" href="./logout.php">Logout</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../Profile_form.php" rel="nofollow"
+                        <a class="nav-link" href="./Profile_form.php" rel="nofollow"
                            target="_blank">Create Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../view.php" target="_blank">View Profiles</a>
+                        <a class="nav-link" href="./view.php" target="_blank">View Profiles</a>
                     </li>
                 </ul>
 
