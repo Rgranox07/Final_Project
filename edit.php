@@ -30,7 +30,7 @@
 <!-- End your project here-->
 <div class="form-layer1 d-flex justify-content-center">
     <div class="form-layer2">
-        <form class="form-container text-black" action="view.php" method="post">
+        <form class="form-container text-black" action="edit.php" method="post">
             <p class="fw-bold fs-2">Personal Information</p>
             <div class="row mb-3">
                 <div class="col-6">
