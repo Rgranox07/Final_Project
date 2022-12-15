@@ -1,0 +1,157 @@
+/*
+For Form
+*/
+.form-container{
+    padding: 80px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    opacity: 75%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.form-layer1{
+    padding: 20px;
+    background-image: linear-gradient(to right top, #1d3c45, #004e4d, #095e41, #426b27, #7a7000, #9c7917, #bd812e, #de8847, #e7a36a, #efbe8f, #f7d8b7, #fff1e1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.form-layer2{
+    height: 870px;
+    width: 700px;
+}
+
+
+
+
+
+/*
+For Header
+*/
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('../img/cor1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('../img/cor2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('../img/cor3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+
+
+/*
+Main Body
+*/
+
+
+
+.layer2 img{
+    height: 270px ;
+    width: 500px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.layer2{
+    margin-top: 40px;
+}
+
+.layer1{
+    width: 40%;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.tm1{
+    letter-spacing: 20px;
+}
+
+.layer3 img{
+    width: 500px;
+    height: 270px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.secDiv{
+    margin: 20px;
+    padding: 10px;
+    margin-left: 53px;
+    margin-top: 35px;
+    padding-top: 60px;
+}
+
+.layer4{
+    width: 40%;
+}
+
+.back{
+    height: 420px;
+    margin: 10px;
+    background-color: #dedede;
+}
+
+.thirdDiv{
+    padding: 50px;
+}
+
+.card-img-top{
+    height: 120px;
+    width: 120px;
+    margin-left: 35.8%;
+}
+
+/*
+View Background
+*/
+
+.view-back{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #ecc19c, #cbb787, #a7ae7b, #81a376, #5a9778, #37867c, #1e737b, #1d5f74, #2e445b, #2e2c3c, #1f181e, #000000);
+}
+
+.profile-data{
+    opacity: 80%;
+}
+
+.main-data{
+    border-radius: 10px;
+}
+
+.sub-profile-data{
+    border-radius: 10px;
+    height: 700px;
+    width: 600px;
+}
