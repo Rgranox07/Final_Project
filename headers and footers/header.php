@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+                        <a class="nav-link" href="https://github.com/Rgranox07/Final_Project" rel="nofollow" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
                     </li>
@@ -71,9 +71,9 @@
                         <div class="text-white text-center">
                             <h1 class="mb-3">Build your Career with RMG Maheshwari College</h1>
                             <h5 class="mb-4">Fall in Love with Learning</h5>
-                            <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                            <a class="btn btn-outline-light btn-lg m-2" href="./signup.php"
                                role="button" rel="nofollow" target="_blank">Register</a>
-                            <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/"
+                            <a class="btn btn-outline-light btn-lg m-2" href="./signin.php"
                                target="_blank" role="button">Login</a>
                         </div>
                     </div>
@@ -86,6 +86,8 @@
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-white text-center">
                             <h2>One of the Best College in Gujarat</h2>
+                            <a class="btn btn-outline-light btn-lg m-2"
+                               href="#" target="_blank" role="button">Locate our other campuses</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +106,7 @@
                         <div class="text-white text-center">
                             <h2>Extra Activities for all the Stud's</h2>
                             <a class="btn btn-outline-light btn-lg m-2"
-                               href="https://mdbootstrap.com/docs/standard/content-styles/masks/" target="_blank" role="button">Learn
+                               href="#" target="_blank" role="button">Learn
                                 about courses</a>
                         </div>
                     </div>

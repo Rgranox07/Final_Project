@@ -114,6 +114,74 @@
             </div>
 
         </form>
+
+        <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST"){
+            $fname = trim($_POST['fname']);
+            $lname = trim($_POST['lname']);
+            $gender = $_POST['gender'];
+            $dob = trim($_POST['dob']);
+            $age = trim($_POST['age']);
+            $numb = trim($_POST['numb']);
+            $school = trim($_POST['school']);
+            $foi = trim($_POST['foi']);
+            $street = trim($_POST['street']);
+            $city = trim($_POST['city']);
+            $province = trim($_POST['province']);
+            $pin = trim($_POST['pin']);
+
+            $error = "";
+            if (empty($fname)){
+                $error = "First Name is required";
+            }
+            else if (empty($lname)){
+                $error = "Last Name is required";
+            }
+            else if (empty($gender)){
+                $error = "Gender is required";
+            }
+            else if (empty($dob)){
+                $error = "DOB is required";
+            }
+            else if (empty($age)){
+                $error = "Age is required";
+            }
+            else if (empty($numb)){
+                $error = "Number is required";
+            }
+            else if (!is_numeric($numb)){
+                $error = "Mobile number can only have numbers";
+            }
+            else if (strlen($numb) != 10){
+                $error = "Mobile number can have only 10 digits";
+            }
+            else if (empty($school)){
+                $error = "School is required";
+            }
+            else if (empty($foi)){
+                $error = "FOI is required";
+            }
+            else if (empty($street)){
+                $error = "Street is required";
+            }
+            else if (empty($city)){
+                $error = "City is required";
+            }
+            else if (empty($province)){
+                $error = "Province is required";
+            }
+            else if (empty($pin)){
+                $error = "Postal Code is required";
+            }
+            else {
+                ?>
+                <script> alert('Your profile is added'); </script>
+                <?php
+            }
+        }
+        echo '$error';
+        ?>
+
     </div>
 </div>
 <!-- MDB -->

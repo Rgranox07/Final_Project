@@ -1,12 +1,12 @@
+<!--This is the first page-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+<!--  This is the college name   -->
+    <title>RMG MAHESHWARI</title>
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -17,13 +17,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
-    <!-- MDB -->
+<!--   Bootstrap links   -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+<!--   This is my css   -->
     <link rel="stylesheet" href="./main_css/style.css">
 
   </head>
   <body>
     <!-- Start your project here-->
+<!--  Calling our header files  -->
     <?php
     require './headers and footers/header.php';
     ?>
@@ -40,14 +42,14 @@
             <button class="btn btn-dark col-12">Explore Us.</button>
         </div>
         <div class="layer2">
-            <img src="./img/bod6.jpg" class="img-fluid">
+            <img src="./img/bod6.jpg" class="img-fluid" alt="my-body">
         </div>
     </div>
 
     <div class="back">
         <div class="secDiv d-flex justify-content-evenly">
             <div class="layer3">
-                <img src="./img/bod5.jpg" class="bod5 img-fluid">
+                <img src="./img/bod5.jpg" class="bod5 img-fluid" alt="my-body">
                 <p class="fw-bold fs-2 pt-2 text-center">WHY RMG MAHESHWARI?</p>
             </div>
 
@@ -57,14 +59,13 @@
                         <h2 class="accordion-header" id="flush-headingOneX">
                             <button class="accordion-button" type="button" data-mdb-toggle="collapse"
                                     data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
-                                Accordion Item #1
+                                Best Placements
                             </button>
                         </h2>
                         <div id="flush-collapseOneX" class="accordion-collapse collapse show"
                              aria-labelledby="flush-headingOneX" data-mdb-parent="#accordionFlushExampleX">
                             <div class="accordion-body">
-                                Placeholder content for this accordion, which is intended to demonstrate the
-                                <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                <strong>RMG MAHESHWARI</strong> College is one of the best college in India. Most of our students find CO-OP after graduating our from our courses.
                             </div>
                         </div>
                     </div>
@@ -72,15 +73,13 @@
                         <h2 class="accordion-header" id="flush-headingTwoX">
                             <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
                                     data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
-                                Accordion Item #2
+                                Best faculties and courses
                             </button>
                         </h2>
                         <div id="flush-collapseTwoX" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoX"
                              data-mdb-parent="#accordionFlushExampleX">
                             <div class="accordion-body">
-                                Placeholder content for this accordion, which is intended to demonstrate the
-                                <code>.accordion-flush</code> class. This is the second item's accordion body.
-                                Let's imagine this being filled with some actual content.
+                                We provide courses that are on demand in this globe. We have got numerous faculties who provide their best to make our courses useful to the students.
                             </div>
                         </div>
                     </div>
@@ -88,17 +87,13 @@
                         <h2 class="accordion-header" id="flush-headingThreeX">
                             <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
                                     data-mdb-target="#flush-collapseThreeX" aria-expanded="false" aria-controls="flush-collapseThreeX">
-                                Accordion Item #3
+                                Advanced Technology
                             </button>
                         </h2>
                         <div id="flush-collapseThreeX" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeX"
                              data-mdb-parent="#accordionFlushExampleX">
                             <div class="accordion-body">
-                                Placeholder content for this accordion, which is intended to demonstrate the
-                                <code>.accordion-flush</code> class. This is the third item's accordion body.
-                                Nothing more exciting happening here in terms of content, but just filling up
-                                the space to make it look, at least at first glance, a bit more representative
-                                of how this would look in a real-world application.
+                                We are equipped with all the best and modern technologies that helps students to be on track. Along with that we have many extra activities which helps students to build a great network and personality.
                             </div>
                         </div>
                     </div>
@@ -113,14 +108,13 @@
                 <div class="card h-100 text-center">
                     <img src="./img/bod2.png" class="card-img-top" alt="Skyscrapers"/>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Search</h5>
                         <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            Search for what you are looking for.
                         </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Last updated 1 mins ago</small>
                     </div>
                 </div>
             </div>
@@ -128,11 +122,11 @@
                 <div class="card h-100 text-center">
                     <img src="./img/bod3.png" class="card-img-top" alt="Los Angeles Skyscrapers"/>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Mentors</h5>
+                        <p class="card-text">Connect with our peer mentors that helps student to grow their career.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Last updated 2 mins ago</small>
                     </div>
                 </div>
             </div>
@@ -140,15 +134,13 @@
                 <div class="card h-100 text-center">
                     <img src="./img/bod4.png" class="card-img-top" alt="Palm Springs Road"/>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Locate Us</h5>
                         <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show
-                            that equal height action.
+                            Locate our all 3 campuses present in India with a virtual glance of them.
                         </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Last updated 1 mins ago</small>
                     </div>
                 </div>
             </div>
